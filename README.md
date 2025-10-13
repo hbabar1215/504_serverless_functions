@@ -13,3 +13,16 @@ The American with Disabilities Act (ADA) has recently recommended HbA1c with a c
 - **Base image**: Python 3.13 (Ubuntu 22)
 - **Authentication**: Allow public access
 - **Networking**: All (Allow direct access to your service from the internet)
+
+After running our code we were able to input two values:
+Value #1 
+- Value: `7.2`
+- Status: `Abnormal`
+- Category: `Diabetes (>6.5)` 
+
+Value #2
+- Value: `5.4`
+- Status: `Normal`
+- Category: `Normal (<6.5)` 
+
+![gcp_requests](gcp/gcp_requests.png)
