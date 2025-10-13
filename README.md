@@ -14,7 +14,8 @@ The American with Disabilities Act (ADA) has recently recommended HbA1c with a c
 - **Authentication**: Allow public access
 - **Networking**: All (Allow direct access to your service from the internet)
 
-After running our code we were able to input two values:
+We were able to input two values and run them in our `test_hba1c.py` file:
+
 Value #1 
 - Value: `7.2`
 - Status: `Abnormal`
