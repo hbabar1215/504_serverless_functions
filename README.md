@@ -13,6 +13,7 @@ The American with Disabilities Act (ADA) has recently recommended HbA1c with a c
 - **Base image**: Python 3.13 (Ubuntu 22)
 - **Authentication**: Allow public access
 - **Networking**: All (Allow direct access to your service from the internet)
+- **Link**: https://hba1c-test-504-454776307775.us-central1.run.app 
 
 We were able to input two values and run them in our `test_hba1c.py` file:
 
