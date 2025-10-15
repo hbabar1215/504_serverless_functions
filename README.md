@@ -25,6 +25,11 @@ Value #1
 Value #2
 - Value: `5.4`
 - Status: `Normal`
-- Category: `Normal (<6.5)` 
+- Category: `No diabetes (<5.7)` 
+
+Value #3
+- Value: `6.1`
+- Status: `Prediabetes`
+- Category: `At risk for diabetes`
 
 ![gcp_requests](gcp/gcp_requests.png)

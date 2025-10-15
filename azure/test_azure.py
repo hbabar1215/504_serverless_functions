@@ -1,6 +1,6 @@
 import requests
 
-url = "https://hba1c-test-504-454776307775.us-central1.run.app"
+url = "https://504-test-g7cgcpgjddfhh7cc.eastus-01.azurewebsites.net/api/http_trigger1?code=uMAh2i6_yqsbf_eRbMa6z0aYFKZXhndmD0mLzopeyeQpAzFuqOF2aA=="
 
 # Test Abnormal value (≥6.5)
 response = requests.post(url, json={"hba1c": 7.2}) 
