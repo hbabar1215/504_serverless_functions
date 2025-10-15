@@ -1,1 +1,3 @@
 functions_framework
+requests
+azure-functions 

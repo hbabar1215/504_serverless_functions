@@ -32,8 +32,15 @@ def hello_http(request):
         )
 
     # Classification
-    status = "normal" if hba1c_val < 6.5 else "abnormal"
-    category = "Normal (<6.5)" if status == "normal" else "Diabetes (>=6.5)"
+    if hba1c_val < 5.7:
+        status = "Normal"
+        category = "No diabetes"
+    elif 5.7 <= hba1c_val < 6.5:
+        status = "Pre-diabetes"
+        category = "At risk of diabetes"
+    else:  # hba1c_val >= 6.5
+        status = "Abnormal"
+        category = "Diabetes"
 
     payload = {
         "hba1c": hba1c_val,
