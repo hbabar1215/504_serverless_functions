@@ -32,6 +32,7 @@ Value #3
 - Status: `Prediabetes`
 - Category: `At risk for diabetes (5.7–6.4)`
 
+When running this on VS code we put in the following command: `python azure\test_hba1c.py` 
 ![gcp_requests](gcp/gcp_request.png)
 
 When running this on the URL you can type: ?hba1c(a value) and it will generate a response for you. 
@@ -63,3 +64,6 @@ Value #3
 - Value: `6.1`
 - Status: `Prediabetes`
 - Category: `At risk for diabetes (5.7–6.4)`
+
+When running this on VS code we put in the following command: `python azure\test_azure.py` 
+![azure](azure/azure_requests.png)
