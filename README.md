@@ -32,7 +32,7 @@ Value #3
 - Status: `Prediabetes`
 - Category: `At risk for diabetes (5.7–6.4)`
 
-![gcp_requests](gcp/gcp_requests.png)
+![gcp_requests](gcp/gcp_request.png)
 
 When running this on the URL you can type: ?hba1c(a value) and it will generate a response for you. 
 For example:
