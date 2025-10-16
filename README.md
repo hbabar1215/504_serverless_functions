@@ -23,7 +23,7 @@ Value #1
 - Category: `Diabetes (>6.5)` 
 
 Value #2
-- Value: `5.4`
+- Value: `5.2`
 - Status: `Normal`
 - Category: `No diabetes (<5.7)` 
 
@@ -33,3 +33,10 @@ Value #3
 - Category: `At risk for diabetes`
 
 ![gcp_requests](gcp/gcp_requests.png)
+
+When running this on the URL you can type: ?hba1c(a value) and it will generate a response for you. 
+For example:
+![gcp](gcp/testingongcp.png)
+
+
+For Azure replace `YOUR_FUNCTION_KEY` with: R7s29NkG8PfVRqDpub0h-sjPkaUv_S_hOT5-Io59AEheAzFu11WFbg== 
