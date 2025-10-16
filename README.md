@@ -35,6 +35,31 @@ Value #3
 ![gcp_requests](gcp/gcp_request.png)
 
 When running this on the URL you can type: ?hba1c(a value) and it will generate a response for you. 
-For example:
+- For example:
 ![gcp](gcp/testingongcp.png)
 
+
+## Azure 
+- **Name**: 504-test
+- **Location**: East US 
+- **Operating System**: Linux
+- **Authentication**: Allow public access
+- **Networking**: All (Allow direct access to your service from the internet)
+- **Link**: https://504-test-g7cgcpgjddfhh7cc.eastus-01.azurewebsites.net/api/http_trigger1?code=R7s29NkG8PfVRqDpub0h-sjPkaUv_S_hOT5-Io59AEheAzFu11WFbg== 
+
+We were able to input two values and run them in our `test_azure.py` file:
+
+Value #1 
+- Value: `7.2`
+- Status: `Abnormal`
+- Category: `Diabetes (>=6.5)` 
+
+Value #2
+- Value: `5.2`
+- Status: `Normal`
+- Category: `No diabetes (<5.7)` 
+
+Value #3
+- Value: `6.1`
+- Status: `Prediabetes`
+- Category: `At risk for diabetes (5.7–6.4)`
