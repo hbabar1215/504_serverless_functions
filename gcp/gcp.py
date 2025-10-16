@@ -35,10 +35,10 @@ def hello_http(request):
     if hba1c_val < 5.7:
         status = "Normal"
         category = "No diabetes"
-    elif 5.7 <= hba1c_val < 6.5:
+    elif 5.7 <= hba1c_val < 6.4:
         status = "Pre-diabetes"
-        category = "At risk of diabetes"
-    else:  # hba1c_val >= 6.5
+        category = "At risk for diabetes"
+    else:  # hba1c_val >= 6.4
         status = "Abnormal"
         category = "Diabetes"
 

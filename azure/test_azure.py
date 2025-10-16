@@ -6,7 +6,7 @@ response = requests.post(azure_function_url, json={"hba1c": 7.2})
 print(response.status_code)
 print(response.json())
 
-# Test Prediabetic value (5.7-6.5)
+# Test Prediabetic value (5.7-6.4)
 response = requests.post(azure_function_url, json={"hba1c": 6.1})
 print(response.status_code)
 print(response.json())

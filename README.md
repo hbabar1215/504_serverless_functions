@@ -3,8 +3,8 @@ The purpose of this assignment is to implement the same HTTP serverless function
 
 ### Lab Rules
 The American with Disabilities Act (ADA) has recently recommended HbA1c with a cut-point ≥6.5% for diagnosing diabetes. 
-- Therefore, lab values with a HbA1c level **greater than or equal to 6.5** will have an `abnormal test result` and a diagnosis of `diabetes`. 
-- Lab values **less than 6.5** will have a `normal test result`. 
+- Therefore, lab values with a HbA1c level **greater than or equal to 6.4** will have an `abnormal test result` and a diagnosis of `diabetes`. 
+- Lab values **less than 6.4** will have a `normal test result`. 
 - Source: Sherwani, S. I., Khan, H. A., Ekhzaimy, A., Masood, A., & Sakharkar, M. K. (2016). Significance of HbA1c Test in Diagnosis and Prognosis of Diabetic Patients. Biomarker insights, 11, 95–104. https://doi.org/10.4137/BMI.S38440 
 
 ## Google Cloud
@@ -20,7 +20,7 @@ We were able to input two values and run them in our `test_hba1c.py` file:
 Value #1 
 - Value: `7.2`
 - Status: `Abnormal`
-- Category: `Diabetes (>6.5)` 
+- Category: `Diabetes (>=6.4)` 
 
 Value #2
 - Value: `5.2`
@@ -30,7 +30,7 @@ Value #2
 Value #3
 - Value: `6.1`
 - Status: `Prediabetes`
-- Category: `At risk for diabetes`
+- Category: `At risk for diabetes (5.7–6.4)`
 
 ![gcp_requests](gcp/gcp_requests.png)
 
