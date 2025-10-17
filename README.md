@@ -8,7 +8,7 @@ The American with Disabilities Act (ADA) has recently recommended HbA1c with a c
 - Source: American Diabetes Association Professional Practice Committee; 2. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes—2025. Diabetes Care 1 January 2025; 48 (Supplement_1): S27–S49. https://doi.org/10.2337/dc25-S002 
 
 ## Video Link
-[Serverless Function Video]("https://drive.google.com/file/d/1xpxucCrq_XH63bS7KpHvJvT0zaVhr2n5/view?usp=sharing")
+[Serverless Function Video](https://drive.google.com/file/d/1xpxucCrq_XH63bS7KpHvJvT0zaVhr2n5/view?usp=sharing)
 
 ## Google Cloud
 - **Name**: hba1c-test-504
