@@ -9,6 +9,7 @@ The American with Disabilities Act (ADA) has recently recommended HbA1c with a c
 
 ## Video Link
 [Serverless Function Video]("https://drive.google.com/file/d/1xpxucCrq_XH63bS7KpHvJvT0zaVhr2n5/view?usp=sharing")
+
 ## Google Cloud
 - **Name**: hba1c-test-504
 - **Region**: us-central1 
