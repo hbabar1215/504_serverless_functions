@@ -13,7 +13,7 @@ The American with Disabilities Act (ADA) has recently recommended HbA1c with a c
 - **Base image**: Python 3.13 (Ubuntu 22)
 - **Authentication**: Allow public access
 - **Networking**: All (Allow direct access to your service from the internet)
-- **Link**: https://hba1c-test-504-454776307775.us-central1.run.app 
+- **Endpoint Link**: https://hba1c-test-504-454776307775.us-central1.run.app 
 
 ### GCP Deployment Steps
 1. Logged into Google Cloud and ensured students billing was turned on.
@@ -62,7 +62,7 @@ When running this on the URL you can type: `?hba1c=(a value)` and it will genera
 - **Operating System**: Linux
 - **Authentication**: Allow public access
 - **Networking**: All (Allow direct access to your service from the internet)
-- **Link**: https://504-test-g7cgcpgjddfhh7cc.eastus-01.azurewebsites.net/api/http_trigger1?code=R7s29NkG8PfVRqDpub0h-sjPkaUv_S_hOT5-Io59AEheAzFu11WFbg== 
+- **Endpoint Link**: https://504-test-g7cgcpgjddfhh7cc.eastus-01.azurewebsites.net/api/http_trigger1?code=R7s29NkG8PfVRqDpub0h-sjPkaUv_S_hOT5-Io59AEheAzFu11WFbg== 
 
 ### Azure Deployment Steps
 1. Logged into Azure and I selected my resource group `504`
