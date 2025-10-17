@@ -4,7 +4,7 @@ The purpose of this assignment is to implement the same HTTP serverless function
 ### Lab Rules
 The American with Disabilities Act (ADA) has recently recommended HbA1c with a cut-point ≥6.5% for diagnosing diabetes. 
 - Therefore, lab values with a HbA1c level **greater than or equal to 6.5** will have an `abnormal test result` and a diagnosis of `diabetes`. 
-- Lab values **less than 5.7** will have a `normal test result` and lab values between 5.7 and 6.4 will have an `At risk result`.
+- Lab values **less than 5.7** will have a `normal test result` and lab values **between 5.7 and 6.4** will have an `At risk result`.
 - Source: American Diabetes Association Professional Practice Committee; 2. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes—2025. Diabetes Care 1 January 2025; 48 (Supplement_1): S27–S49. https://doi.org/10.2337/dc25-S002 
 
 ## Video Link
