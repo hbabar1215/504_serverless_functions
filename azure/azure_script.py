@@ -7,7 +7,7 @@ app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
 def http_trigger1(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Processing HbA1c request.')
 
-    # Try to get data from JSON or query parameters
+    # Prefer JSON body; fall back to query parameters for convenience
     try:
         data = req.get_json()
     except ValueError:
@@ -15,7 +15,7 @@ def http_trigger1(req: func.HttpRequest) -> func.HttpResponse:
 
     hba1c = data.get("hba1c") or req.params.get("hba1c")
 
-    # Check if hba1c is provided
+    # Presence check
     if hba1c is None:
         return func.HttpResponse(
             json.dumps({"error": "'hba1c' is required."}),
@@ -23,7 +23,7 @@ def http_trigger1(req: func.HttpRequest) -> func.HttpResponse:
             mimetype="application/json"
         )
 
-    # Validate numeric input
+    # Type/convert check
     try:
         hba1c_val = float(hba1c)
     except (TypeError, ValueError):
