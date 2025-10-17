@@ -1,5 +1,5 @@
 # Multi‑Cloud Serverless Function (HbA1c Levels)
-The purpose of this assignment is to implement the same HTTP serverless function in two clouds. Our function will accept JSON input values describing HbA1c levels. Given an input, a binary classifier (abnormal or normal) will be produced in **Google Cloud Platform and Azure**. 
+The purpose of this assignment is to implement the same HTTP serverless function in two clouds. Our function will accept JSON input values describing HbA1c levels. Given an input, "abnormal, normal, and at risk" will be produced in **Google Cloud Platform and Azure**. 
 
 ### Lab Rules
 The American with Disabilities Act (ADA) has recently recommended HbA1c with a cut-point ≥6.5% for diagnosing diabetes. 
