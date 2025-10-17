@@ -28,6 +28,7 @@ The American with Disabilities Act (ADA) has recently recommended HbA1c with a c
 10. Clicked “Save and Deploy” to update code. 
 11. Copied the endpoint URL (used later in `requests.post()` tests).
 
+### POST Requests
 We were able to input two values and run them in our `test_hba1c.py` file:
 
 Value #1 
@@ -48,6 +49,7 @@ Value #3
 When running this on VS code we put in the following command: `python azure\test_hba1c.py` 
 ![gcp-request](gcp/gcp_request.png)
 
+### GET Request
 When running this on the URL you can type: `?hba1c=(a value)` and it will generate a response for you. 
 - For example:
 
@@ -80,6 +82,7 @@ When running this on the URL you can type: `?hba1c=(a value)` and it will genera
 <img src="azure/test_azure.png" width="400"/>
 
 
+### POST Requests
 We were able to input two values and run them in our `test_azure.py` file:
 
 Value #1 
@@ -100,6 +103,7 @@ Value #3
 - When running this on VS code we put in the following command: `python azure\test_azure.py` 
 ![azure](azure/azure_requests.png)
 
+### GET Request
 - When running this on the URL you can type: `&hba1c=(a value)` and it will generate a response for you. 
 ![alt text](azure/azure_url_test.png)
 
